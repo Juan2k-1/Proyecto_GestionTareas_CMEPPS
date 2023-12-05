@@ -34,6 +34,16 @@ public class TareaEntity {
     
     @Column(name="duracion",nullable = false)
     private int duracion;
+
+    public TareaEntity(Long id, String titulo, String descripcion, int prioridad, int duracion) {
+        this.id = id;
+        this.titulo = titulo;
+        this.descripcion = descripcion;
+        this.prioridad = prioridad;
+        this.duracion = duracion;
+    }
+    
+    
     
     public Long getId() {
         return id;

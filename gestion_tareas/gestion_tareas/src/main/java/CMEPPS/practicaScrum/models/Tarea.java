@@ -1,7 +1,5 @@
 package CMEPPS.practicaScrum.models;
 
-import java.time.LocalDate;
-
 /**
  *
  * @author Juan Alberto Dominguez Vazquez
